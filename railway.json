@@ -1,0 +1,15 @@
+{
+    "build": {
+      "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://ProjectTAgilberto"
+      }
+    },
+    "deploy": {
+      "startCommand": "php artisan serve --host=0.0.0.0 --port=8000",
+      "healthcheckPath": "/",
+      "port": 8000
+    }
+  }
+  
